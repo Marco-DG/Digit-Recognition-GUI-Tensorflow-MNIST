@@ -2,87 +2,45 @@
 
 ![Here a Screenshot!!](https://github.com/Marco-DG/Tensorflow-MNIST-digit_recognition/blob/master/Screenshot.png)
 
-## Getting Started
+### Hi
+Hi, I'm a 17-year-old student in florence, Italy; my IT professor ask to the class to find a project to develop during the year            and I've chosen this one. I love programming in Python and C++ and is a year now since I began to study machine-learning and  neural networks.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### License
+ 
+The software is distribuited under an Apache 2 license so feel free to use it as you want :)
 
-### Prerequisites
+### Requirements
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+The script has been written with Python3 but shoud be compatible with Python2 too, the list of used packages that you have to install can be found in `install_requirements.bat`, if you are using Windows you can just execute the script, but I recommend you to use a `virtual-env` to ensure safety.
 
 ```
-Give the example
+pip3 install tensorflow
+pip3 install opencv-python
+pip3 install pillow
+pip3 install pygame
+pip3 install numpy
 ```
 
-And repeat
+## Running the script
 
 ```
-until finished
+python3 Main.py
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+### Running the script for the first time
 
-## Running the tests
+The first time you will run the script, the **training will start** this **could take a couple of hours**, once finished the Tensorflow model will be saved in the same folder of the script, 3 or 4 file will be saved: `checkpoint`, `model.ckpt.index`, `model.ckpt.meta` and `model.ckpt.data-00000-of-00001`.
 
-Explain how to run the automated tests for this system
+**Note:** As long as the `model.ckpt` is stored in the folder, the next time you will run the `Main.py` the training will be avoided.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+## Project Tree
 
 ```
-Give an example
+- Main.py
+- whoDaresWins.py
+- generateClassifier.py
+- performRecognition.py
+- prepareImage.py
+- install_requirements.bat
+- /font/FreeSans.ttf
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
