@@ -1,4 +1,4 @@
-# Digit Recognition on Tensorflow using MNIST with GUI
+# Handwritten Digit Recognition on Tensorflow using MNIST with GUI
 
 ![Here a Screenshot!!](https://github.com/Marco-DG/Tensorflow-MNIST-digit_recognition/blob/master/Screenshot.png)
 
