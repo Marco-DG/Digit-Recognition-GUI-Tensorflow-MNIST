@@ -1,6 +1,6 @@
-# Project Title
+# Digit Recognition on Tensorflow using MNIST with GUI
 
-One Paragraph of project description goes here
+![Here a Screenshot!!](https://github.com/Marco-DG/Tensorflow-MNIST-digit_recognition/blob/master/Screenshot.png)
 
 ## Getting Started
 
