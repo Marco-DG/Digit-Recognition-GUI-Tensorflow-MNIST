@@ -30,10 +30,7 @@ python3 Main.py
 ## Pretrained model
 You can avoid the train process downloading the pretrained model.
 
-```
 https://drive.google.com/open?id=1dPhfwf9ePLHPBAwEf7LBthsmA6Yeh54f
-
-```
 
 ### Running the script for the first time
 
