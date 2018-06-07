@@ -28,7 +28,7 @@ python3 Main.py
 ```
 
 ## Pretrained model
-You can avoid the train process downloading the pretrained model.
+You can avoid the train process downloading the pretrained model, place the ckpt files among whit the python files.
 
 https://drive.google.com/open?id=1dPhfwf9ePLHPBAwEf7LBthsmA6Yeh54f
 
