@@ -27,6 +27,14 @@ pip3 install numpy
 python3 Main.py
 ```
 
+## Pretrained model
+You can avoid the train process downloading the pretrained model.
+
+```
+https://drive.google.com/open?id=1dPhfwf9ePLHPBAwEf7LBthsmA6Yeh54f
+
+```
+
 ### Running the script for the first time
 
 The first time you will run the script, the **training will start** this **could take a couple of hours**, once finished the Tensorflow model will be saved in the same folder of the script, 3 or 4 file will be saved: `checkpoint`, `model.ckpt.index`, `model.ckpt.meta` and `model.ckpt.data-00000-of-00001`.
